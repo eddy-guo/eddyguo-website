@@ -36,6 +36,18 @@ li {
   padding-right: 10px;
 }
 
+ul {
+  padding: 0;
+  list-style-type: none;
+  text-align: right;
+}
+
+ul.bottom {
+  padding: 0;
+  list-style-type: none;
+  text-align: left;
+}
+
 img {
   max-width: 100%;
   display: block;

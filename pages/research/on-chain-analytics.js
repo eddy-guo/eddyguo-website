@@ -5,9 +5,9 @@ export default function MEV() {
   return (
     <>
       <Head>
-        <title>Research | Eddy Guo</title>
+        <title>On-Chain Analytics | Eddy Guo</title>
       </Head>
-      <h1>MEV, Arbitrage, Flashbots</h1>
+      <h1>On-Chain Analytics (Dune, Parsec)</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim

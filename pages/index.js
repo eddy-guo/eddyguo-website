@@ -7,6 +7,32 @@ export default function Home() {
       <Head>
         <title>Eddy Guo</title>
       </Head>
+      <ul>
+        <li>
+          <a
+            href="/Resume_Eddy_Guo.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Resume
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/eddy-guo" target="_blank">
+            GitHub
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/spagh_eddy" target="_blank">
+            Twitter
+          </a>
+        </li>
+        <li>
+          <a href="mailto: eddyyanruguo@gmail.com" target="_blank">
+            Email
+          </a>
+        </li>
+      </ul>
       <h1>Hey, I'm Eddy Guo &#127837;</h1>
       <p>
         I'm a 3rd year student studying Computer Science at the University of
@@ -21,28 +47,19 @@ export default function Home() {
           <a target="_blank">Process Fusion</a>
         </Link>
         .<br />
+        <ul className="bottom">
+          <li>
+            <Link href="/research">
+              <a>Research</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/writing">
+              <a>Writing</a>
+            </Link>
+          </li>
+        </ul>
       </p>
-      <ul>
-        <li>
-          <Link href="/research">
-            <a>Research</a>
-          </Link>
-        </li>
-        <li>
-          <a
-            href="/Resume_Eddy_Guo.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Resume
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/eddy-guo" target="_blank">
-            Github
-          </a>
-        </li>
-      </ul>
     </>
   );
 }

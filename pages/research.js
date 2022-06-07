@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 
-export default function MEV() {
+export default function Research() {
   return (
     <>
       <Head>
@@ -13,17 +13,21 @@ export default function MEV() {
         of what I'm learning and hold myself accountable, I will try my best to
         update this page consistently &#128526;
       </p>
-      <p>
-        <Link href="/research/MEV">
-          <a>MEV</a>
-        </Link>
-        <br />
-        <br />
-        <br />
-        <Link href="/">
-          <a>Back to home</a>
-        </Link>
-      </p>
+      <ul className="bottom">
+        <li>
+          <Link href="/research/MEV">
+            <a>MEV</a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/research/on-chain-analytics">
+            <a>On-Chain Analytics</a>
+          </Link>
+        </li>
+      </ul>
+      <Link href="/">
+        <a>&#8592; Back to home</a>
+      </Link>
     </>
   );
 }
