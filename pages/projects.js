@@ -1,13 +1,13 @@
 import Head from "next/head";
 import Link from "next/link";
 
-export default function MEV() {
+export default function Projects() {
   return (
     <>
       <Head>
-        <title>MEV | Eddy Guo</title>
+        <title>Projects | Eddy Guo</title>
       </Head>
-      <h1>MEV, Arbitrage, Flashbots</h1>
+      <h1>Projects</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
@@ -19,8 +19,8 @@ export default function MEV() {
       </p>
       <ul className="bottom">
         <li>
-          <Link href="/research">
-            <a className="nocolor">&#8592; Back to research</a>
+          <Link href="/projects/arbitragebot">
+            <a>WETH/DAI Arbitrage Bot</a>
           </Link>
         </li>
       </ul>

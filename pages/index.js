@@ -73,6 +73,11 @@ export default function Home() {
             </Link>
           </li>
           <li>
+            <Link href="/projects">
+              <a>Projects</a>
+            </Link>
+          </li>
+          <li>
             <Link href="/writing">
               <a>Writing</a>
             </Link>
