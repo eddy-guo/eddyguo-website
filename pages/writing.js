@@ -25,7 +25,7 @@ export default function Writing() {
         </li>
       </ul>
       <Link href="/">
-        <a>&#8592; Back to home</a>
+        <a className="nocolor">&#8592; Back to home</a>
       </Link>
     </>
   );

@@ -20,12 +20,12 @@ export default function hardWorkTalent() {
       <ul className="bottom">
         <li>
           <Link href="/writing">
-            <a>&#8592; Back to writing</a>
+            <a className="nocolor">&#8592; Back to writing</a>
           </Link>
         </li>
       </ul>
       <Link href="/">
-        <a>&#8592; Back to home</a>
+        <a className="nocolor">&#8592; Back to home</a>
       </Link>
     </>
   );

@@ -26,7 +26,7 @@ export default function Research() {
         </li>
       </ul>
       <Link href="/">
-        <a>&#8592; Back to home</a>
+        <a className="nocolor">&#8592; Back to home</a>
       </Link>
     </>
   );
