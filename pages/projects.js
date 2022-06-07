@@ -9,13 +9,14 @@ export default function Projects() {
       </Head>
       <h1>Projects</h1>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
+        Smart contracts and the concept of "programmable money" were the first
+        crypto-related topics I researched back in January of 2022.
+        <br />
+        This was followed closely by dApps (Decentralized applications), which I
+        thought was a perfect way to bridge my passion for programming and
+        interest in the web3 space. Whether it be decentralized finance, gaming,
+        or technology, I was interested and wanted to create something on my
+        own.
       </p>
       <ul className="bottom">
         <li>
