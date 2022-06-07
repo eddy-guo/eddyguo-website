@@ -1,22 +1,19 @@
 import Head from "next/head";
-import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
 
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>Eddy Guo</title>
-      </Head>
-      <section className={utilStyles.headingMd}>
-        <p>[Your Self Introduction]</p>
-        <p>
-          (This is a sample website - you’ll be building a site like this on{" "}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
-        </p>
-        <p><Link href="/posts/first-post"><a>First post</a></Link></p>
-        <p><Link href="/posts/resume"><a>Resume</a></Link></p>
-      </section>
+      <Head><title>Eddy Guo</title></Head>
+        <h1>Hey, I'm Eddy Guo &#127837;</h1>
+        <p>I'm a 3rd year Computer Science student at the University of Waterloo. I am currently exploring blockchain and web3 development.<br/>
+        I have previously developed software at <Link href="https://atsautomation.com/"><a target="_blank">ATS Automation</a></Link>
+        {' '}and <Link href="https://www.processfusion.com/"><a target="_blank">Process Fusion</a></Link>.</p>
+        <ul>
+        <li><Link href="/research/MEV"><a>Research</a></Link></li>
+        <li><a href="/Resume_Eddy_Guo.pdf" target="_blank" rel="noopener noreferrer">Resume</a></li>
+        <li><a href="https://github.com/eddy-guo" target="_blank">Github</a></li>
+        </ul>
     </>
   );
 }

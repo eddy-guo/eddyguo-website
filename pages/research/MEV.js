@@ -1,11 +1,11 @@
 import Head from 'next/head';
 import Link from 'next/link';
 
-export default function FirstPost() {
+export default function MEV() {
   return (
     <>
       <Head>
-        <title>Research | Eddy Guo</title>
+        <title>MEV</title>
       </Head>
       <h1>First Post</h1>
       <h2>
