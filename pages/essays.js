@@ -5,7 +5,7 @@ export default function MEV() {
   return (
     <>
       <Head>
-        <title>MEV | Eddy Guo</title>
+        <title>Essays | Eddy Guo</title>
       </Head>
       <h1>First Post</h1>
       <h2>
