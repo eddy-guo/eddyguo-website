@@ -9,14 +9,14 @@ export default function Projects() {
       </Head>
       <h1>Projects</h1>
       <p>
-        Smart contracts and the concept of "programmable money" were the first
-        crypto-related topics I researched back in January of 2022.
+        DAOs (decentralized autonomous organizations), dApps (decentralized
+        applications), and DEXs (decentralized exchanges) are all great ways to
+        bridge my passion for programming with my interest in blockchain
+        development.
         <br />
-        This was followed closely by dApps (Decentralized applications), which I
-        thought was a perfect way to bridge my passion for programming and
-        interest in the web3 space. Whether it be decentralized finance, gaming,
-        or technology, I was interested and wanted to create something on my
-        own.
+        <br />
+        Whether it be decentralized finance, gaming, or collectibles, I am
+        always interested in building something.
       </p>
       <ul className="bottom">
         <li>

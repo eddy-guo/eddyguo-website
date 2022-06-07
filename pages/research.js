@@ -9,9 +9,14 @@ export default function Research() {
       </Head>
       <h1>Web3 Research</h1>
       <p>
-        I am a developer and analyst for the UW Blockchain Club - to keep track
-        of what I'm learning and hold myself accountable, I will try my best to
-        update this page consistently &#128526;
+        My "journey in crypto" started in January of 2022, when I was flipping
+        NFTs and learning about smart contracts. Although I am very happy with
+        my progress and learned a lot since then, it is clear that the web3
+        space is vast.
+        <br />
+        <br />
+        In order to monitor my progress and hold myself accountable, I will try
+        my best to update this page whenever I learn something new &#128526;
       </p>
       <ul className="bottom">
         <li>

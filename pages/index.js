@@ -51,13 +51,13 @@ export default function Home() {
       </h1>
       <p>
         I'm a 3rd year student studying Computer Science at the University of
-        Waterloo. I am currently exploring blockchain and web3 development with
-        the{" "}
+        Waterloo. I am currently exploring blockchain development and web3
+        research with the{" "}
         <Link href="https://twitter.com/uw_blockchain">
           <a target="_blank">UW Blockchain Club</a>
         </Link>
         .<br />
-        <br />I have previously developed software at{" "}
+        <br />I previously developed software at{" "}
         <Link href="https://atsautomation.com/">
           <a target="_blank">ATS Automation</a>
         </Link>{" "}
