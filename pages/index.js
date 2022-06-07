@@ -6,7 +6,7 @@ export default function Home() {
     <>
       <Head>
         <title>Eddy Guo</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/images/favicon.ico" />
       </Head>
       <ul>
         <li>
