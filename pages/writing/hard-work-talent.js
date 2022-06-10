@@ -10,7 +10,7 @@ export default function hardWorkTalent() {
       <h1>Hard Work vs. Talent - A cup-stacking case study</h1>
       <p>Coming soon!</p>
       <ul className="bottom">
-        <li>
+        <li className="button">
           <Link href="/writing">
             <a className="nocolor">&#8592; Back to writing</a>
           </Link>

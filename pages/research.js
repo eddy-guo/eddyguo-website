@@ -19,12 +19,12 @@ export default function Research() {
         my best to update this page whenever I learn something new &#128526;
       </p>
       <ul className="bottom">
-        <li>
+        <li className="button">
           <Link href="/research/MEV">
             <a>MEV</a>
           </Link>
         </li>
-        <li>
+        <li className="button">
           <Link href="/research/on-chain-analytics">
             <a>On-Chain Analytics</a>
           </Link>

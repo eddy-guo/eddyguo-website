@@ -13,7 +13,7 @@ export default function Projects() {
       </h1>
       <p>Coming soon!</p>
       <ul className="bottom">
-        <li>
+        <li className="button">
           <Link href="/projects">
             <a className="nocolor">&#8592; Back to projects</a>
           </Link>

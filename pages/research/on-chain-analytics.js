@@ -10,7 +10,7 @@ export default function MEV() {
       <h1>On-Chain Analytics (Dune, Parsec)</h1>
       <p>Coming soon!</p>
       <ul className="bottom">
-        <li>
+        <li className="button">
           <Link href="/research">
             <a className="nocolor">&#8592; Back to research</a>
           </Link>

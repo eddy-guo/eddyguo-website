@@ -9,17 +9,14 @@ export default function Projects() {
       </Head>
       <h1>Projects</h1>
       <p>
-        DAOs (decentralized autonomous organizations), dApps (decentralized
-        applications), and DEXs (decentralized exchanges) are all great ways to
-        bridge my passion for programming with my interest in blockchain
-        development.
+        DAOs, dApps, and DEXs are all great ways for me to bridge my passion for
+        programming with my interest in blockchain development.
         <br />
-        <br />
-        Whether it be decentralized finance, gaming, or collectibles, I am
-        always interested in building something.
+        <br />I love building in web3, and have a special interest in
+        decentralized finance, gaming, and collectibles.
       </p>
       <ul className="bottom">
-        <li>
+        <li className="button">
           <Link href="/projects/arbitragebot">
             <a>WETH/DAI Arbitrage Bot</a>
           </Link>

@@ -8,8 +8,8 @@ export default function Home() {
         <title>Eddy Guo</title>
         <link rel="icon" href="/images/favicon.ico" />
       </Head>
-      <ul>
-        <li>
+      <ul className="top">
+        <li className="button">
           <a
             href="/Resume_Eddy_Guo.pdf"
             target="_blank"
@@ -19,7 +19,7 @@ export default function Home() {
             Resume
           </a>
         </li>
-        <li>
+        <li className="button">
           <a
             href="https://github.com/eddy-guo"
             target="_blank"
@@ -28,7 +28,7 @@ export default function Home() {
             GitHub
           </a>
         </li>
-        <li>
+        <li className="button">
           <a
             href="https://twitter.com/spagh_eddy"
             target="_blank"
@@ -37,7 +37,7 @@ export default function Home() {
             Twitter
           </a>
         </li>
-        <li>
+        <li className="button">
           <a
             href="mailto: eddyyanruguo@gmail.com"
             target="_blank"
@@ -68,17 +68,17 @@ export default function Home() {
         </Link>
         .<br />
         <ul className="bottom">
-          <li>
+          <li className="button">
             <Link href="/research">
               <a>Research</a>
             </Link>
           </li>
-          <li>
+          <li className="button">
             <Link href="/projects">
               <a>Projects</a>
             </Link>
           </li>
-          <li>
+          <li className="button">
             <Link href="/writing">
               <a>Writing</a>
             </Link>
