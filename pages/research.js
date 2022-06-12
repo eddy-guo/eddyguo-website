@@ -28,6 +28,16 @@ export default function Research() {
           <Link href="/research/on-chain-analytics">
             <a>On-Chain Analytics</a>
           </Link>
+        </li>{" "}
+        <li className="button">
+          <Link href="/research/51-attack">
+            <a>51% Attack</a>
+          </Link>
+        </li>
+        <li className="button">
+          <Link href="/research/auction-theory">
+            <a>Auction Theory</a>
+          </Link>
         </li>
       </ul>
       <Link href="/">

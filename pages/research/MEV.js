@@ -9,7 +9,7 @@ export default function MEV() {
       </Head>
       <h1>MEV, Arbitrage, Flashbots &#129302;</h1>
       <p>Flashbots - sacrificing decentralization for open participation</p>
-      <p>MEV strategy - sandwich attacks, arbitrage, liquidation, NFT</p>
+      <p>MEV strategy - sandwich attacks, arbitrage, liquidation, time-bandit, NFT</p>
       <p>
         cross-chain MEV - crosschain infrastructure, protocols (Axelar),
         altering of transactions across different blockchains
