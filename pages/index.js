@@ -66,25 +66,25 @@ export default function Home() {
         <Link href="https://www.processfusion.com/">
           <a target="_blank">Process Fusion</a>
         </Link>
-        .<br />
-        <ul className="bottom">
-          <li className="button">
-            <Link href="/research">
-              <a>Research</a>
-            </Link>
-          </li>
-          <li className="button">
-            <Link href="/projects">
-              <a>Projects</a>
-            </Link>
-          </li>
-          <li className="button">
-            <Link href="/writing">
-              <a>Writing</a>
-            </Link>
-          </li>
-        </ul>
+        .
       </p>
+      <ul className="bottom">
+        <li className="button">
+          <Link href="/research">
+            <a>Research</a>
+          </Link>
+        </li>
+        <li className="button">
+          <Link href="/projects">
+            <a>Projects</a>
+          </Link>
+        </li>
+        <li className="button">
+          <Link href="/writing">
+            <a>Writing</a>
+          </Link>
+        </li>
+      </ul>
     </>
   );
 }
