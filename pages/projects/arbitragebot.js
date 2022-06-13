@@ -14,8 +14,8 @@ export default function Projects() {
       <p>
         Most DEX arbitrage opportunities are low risk but offer low payout. To
         fully grasp the scale of these transactions, I wanted to create my own
-        bot which arbitrages on a decentralized exchange between two tokens. The
-        repository can be found{" "}
+        bot which arbitrages on different decentralized exchanges between two
+        tokens. The repository can be found{" "}
         <Link href="https://github.com/eddy-guo/WETH-DAI-arb-bot">
           <a target="_blank">here</a>
         </Link>{" "}
@@ -58,7 +58,12 @@ export default function Projects() {
         <Link href="https://academy.binance.com/en/articles/what-are-liquidity-pools-in-defi">
           <a target="_blank">liquidity pools</a>
         </Link>
-        , where DeFi exchange users put their funds to earn interest or tokens. 
+        , where DeFi exchange users put their funds in a pool to earn interest
+        or tokens. These funds, which are locked in a smart contract, is used
+        only for a specific cryptocurrency pair. If slippage were to occur in
+        this pool (prices falling out of sync due to a large transaction), there
+        would be a chance for an arbitrage to capture this "spread" by buying on
+        one exchange and selling on the other to bring the pools into sync.
       </p>
       <ul className="bottom">
         <li className="button">
