@@ -39,6 +39,11 @@ export default function Research() {
             <a>Auction Theory</a>
           </Link>
         </li>
+        <li className="button">
+          <Link href="/research/crypto-money-laundering">
+            <a>Crypto Money Laundering</a>
+          </Link>
+        </li>
       </ul>
       <Link href="/">
         <a className="nocolor">&#8592; Back to home</a>
