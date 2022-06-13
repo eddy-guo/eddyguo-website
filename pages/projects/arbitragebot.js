@@ -8,7 +8,7 @@ export default function Projects() {
         <title>WETH/DAI Arbitrage Bot | Eddy Guo</title>
       </Head>
       <h1>
-        WETH/DAI Arbitrage Bot <br />
+        WETH/DAI Arbitrage Bot &#x1f984;<br />
         (UniswapV2 implementation)
       </h1>
       <p>
