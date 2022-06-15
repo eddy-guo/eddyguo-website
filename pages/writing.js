@@ -10,11 +10,13 @@ export default function Writing() {
       </Head>
       <h1>Writing Pieces</h1>
       <p>
-        <p style={{color:"#091930", opacity:"0.6"}}>"Writing is timeless" - Anish Agnihotri</p>
+        <p style={{ color: "#091930", opacity: "0.6" }}>
+          "Writing is timeless" - Anish Agnihotri
+        </p>
         As I progress through college and the rest of my life, I will explore
         various career paths, meet many people, and understand more about
         myself. Keeping track of interesting events and what I learned would be
-        pretty rewarding to look back on in the future.
+        rewarding to look back on in the future.
       </p>
       <ul className="bottom">
         <li className="button">
