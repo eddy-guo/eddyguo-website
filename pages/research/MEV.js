@@ -8,32 +8,47 @@ export default function MEV() {
         <title>MEV | Eddy Guo</title>
       </Head>
       <h1>MEV, Arbitrage, Flashbots &#129302;</h1>
-      <p>Flashbots - sacrificing decentralization for open participation</p>
-      <p>MEV strategy - sandwich attacks, arbitrage, liquidation, time bandit, NFT</p>
       <p>
+        Flashbots - sacrificing decentralization for open participation
+        <br />
+        <br />
+        MEV strategy - sandwich attacks, arbitrage, liquidation, time bandit,
+        NFT
+        <br />
+        <br />
         cross-chain MEV - crosschain infrastructure, protocols (Axelar),
         altering of transactions across different blockchains
+        <br />
+        <br />
+        Arb/MEV Bots for code review:
       </p>
-      <p>Arb/MEV Bots for code review:</p>
       <ul>
         <li>
           <Link href="https://github.com/6eer/uniswap-sushiswap-arbitrage-bot">
-            <a className="nocolor" target="_blank">Uniswap/Sushiswap Arbitrage Bot</a>
+            <a className="nocolor" target="_blank">
+              Uniswap/Sushiswap Arbitrage Bot
+            </a>
           </Link>
         </li>
         <li>
           <Link href="https://github.com/Anish-Agnihotri/goblinmode">
-            <a className="nocolor" target="_blank">Goblinmode long-tail MEV</a>
+            <a className="nocolor" target="_blank">
+              Goblinmode long-tail MEV
+            </a>
           </Link>
         </li>
         <li>
           <Link href="https://github.com/Anish-Agnihotri/punk-nftx-meebit-arb">
-            <a className="nocolor" target="_blank">Punk/Meebit NFTX Arbitrage Bot</a>
+            <a className="nocolor" target="_blank">
+              Punk/Meebit NFTX Arbitrage Bot
+            </a>
           </Link>
         </li>
         <li>
           <Link href="https://github.com/fxfactorial/liquidation-bot-fall-2020">
-            <a className="nocolor" target="_blank">Liquidation Bot</a>
+            <a className="nocolor" target="_blank">
+              Liquidation Bot
+            </a>
           </Link>
         </li>
       </ul>

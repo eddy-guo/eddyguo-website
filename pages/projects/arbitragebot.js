@@ -8,7 +8,8 @@ export default function Projects() {
         <title>WETH/DAI Arbitrage Bot | Eddy Guo</title>
       </Head>
       <h1>
-        WETH/DAI Arbitrage Bot &#x1f984;<br />
+        WETH/DAI Arbitrage Bot &#x1f984;
+        <br />
         (UniswapV2 implementation)
       </h1>
       <p>
@@ -116,48 +117,48 @@ export default function Projects() {
         <br />
         <br />
         It is clear that this is a simplified summary; many things were not
-        discussed, including:
-        <ul>
-          <li>
-            adding more trading pairs (in order to include UniswapV2, Sushiswap,
-            Shebaswap, Sakeswap, and Croswap for a higher chance at a successful
-            arb)
-          </li>
-          <li>
-            various required node.js libraries (Axios for api calls, web3 for
-            smart contract, express to run server)
-          </li>
-          <li>
-            deploying smart contract via Remix IDE (with consideration of gas
-            amount)
-          </li>
-          <li>
-            deploying the contract on a testnet beforehand (Rinkeby, Ropsten)
-          </li>
-          <li>Skipping partially filled order</li>
-          <li>
-            Skipping{" "}
-            <Link href="https://www.investopedia.com/articles/active-trading/042414/what-makertaker-fees-mean-you.asp">
-              <a target="_blank">taker fees</a>
-            </Link>
-          </li>
-          <li>
-            Bot Optimizations
-            <ul>
-              <li>
-                <Link href="https://moralis.io/gas-optimizations-in-solidity-top-tips/">
-                  <a target="_blank">gas optimization</a>
-                </Link>{" "}
-                in Solidity
-              </li>
-              <li>
-                dynamically calculating gas fees as opposed to static assumption
-              </li>
-              <li>executing multiple orders at the same time</li>
-            </ul>
-          </li>
-        </ul>
+        discussed, including:{" "}
       </p>
+      <ul>
+        <li>
+          adding more trading pairs (in order to include UniswapV2, Sushiswap,
+          Shebaswap, Sakeswap, and Croswap for a higher chance at a successful
+          arb)
+        </li>
+        <li>
+          various required node.js libraries (Axios for api calls, web3 for
+          smart contract, express to run server)
+        </li>
+        <li>
+          deploying smart contract via Remix IDE (with consideration of gas
+          amount)
+        </li>
+        <li>
+          deploying the contract on a testnet beforehand (Rinkeby, Ropsten)
+        </li>
+        <li>Skipping partially filled order</li>
+        <li>
+          Skipping{" "}
+          <Link href="https://www.investopedia.com/articles/active-trading/042414/what-makertaker-fees-mean-you.asp">
+            <a target="_blank">taker fees</a>
+          </Link>
+        </li>
+        <li>
+          Bot Optimizations
+          <ul>
+            <li>
+              <Link href="https://moralis.io/gas-optimizations-in-solidity-top-tips/">
+                <a target="_blank">gas optimization</a>
+              </Link>{" "}
+              in Solidity
+            </li>
+            <li>
+              dynamically calculating gas fees as opposed to static assumption
+            </li>
+            <li>executing multiple orders at the same time</li>
+          </ul>
+        </li>
+      </ul>
       <ul className="bottom">
         <li className="button">
           <Link href="/projects">
