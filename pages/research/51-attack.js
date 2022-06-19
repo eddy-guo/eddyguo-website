@@ -8,7 +8,11 @@ export default function fiftyOne() {
         <title>51% Attack | Eddy Guo</title>
       </Head>
       <h1>51% Attacks</h1>
-      <p>Coming soon!</p>
+      <p>
+        <Link href="https://twitter.com/_anishagnihotri/status/1394202083923042304">
+          <a target="_blank">lol</a>
+        </Link>
+      </p>
       <ul className="bottom">
         <li className="button">
           <Link href="/research">
