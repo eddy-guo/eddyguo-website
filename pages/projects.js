@@ -21,6 +21,11 @@ export default function Projects() {
             <a>WETH/DAI Arbitrage Bot</a>
           </Link>
         </li>
+        <li className="button">
+          <Link href="/projects/snip3r">
+            <a>snip3r</a>
+          </Link>
+        </li>
       </ul>
       <Link href="/">
         <a className="nocolor">&#8592; Back to home</a>
