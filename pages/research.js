@@ -28,7 +28,7 @@ export default function Research() {
           <Link href="/research/on-chain-analytics">
             <a>On-Chain Analytics</a>
           </Link>
-        </li>{" "}
+        </li>
         <li className="button">
           <Link href="/research/51-attack">
             <a>51% Attack</a>
