@@ -20,7 +20,7 @@ export default function snipe() {
         </Link>
         <br />
         <br />
-        Todo: writeup, finish code, event details
+        Todo: writeup, finish code, event details, resume
       </p>
       <ul className="bottom">
         <li className="button">
