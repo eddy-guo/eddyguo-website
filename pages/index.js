@@ -8,6 +8,7 @@ export default function Home() {
         <title>Eddy Guo</title>
         <link rel="icon" href="/images/favicon.ico" />
       </Head>
+      {/* Unordered list */}
       <ul className="top">
         <li className="button">
           <a
