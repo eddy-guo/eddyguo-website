@@ -25,6 +25,11 @@ export default function Research() {
           </Link>
         </li>
         <li className="button">
+          <Link href="/research/zero-knowledge">
+            <a>Zero-Knowledge</a>
+          </Link>
+        </li>
+        <li className="button">
           <Link href="/research/on-chain-analytics">
             <a>On-Chain Analytics</a>
           </Link>
