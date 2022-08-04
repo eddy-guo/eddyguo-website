@@ -52,8 +52,13 @@ export default function Home() {
       </h1>
       <p>
         I'm a 3rd year student studying Computer Science at the University of
-        Waterloo. I am currently exploring blockchain development and web3
-        research with the{" "}
+        Waterloo. I'm currently working as a Software Engineer at{" "}
+        <Link href="https://jackaldao.com/">
+          <a target="_blank">Jackal</a>
+        </Link>
+        , a DAO in the Cosmos ecosystem focused on decentralizing private data
+        storage for an inter-chain world. I am also exploring blockchain
+        development and web3 research with the{" "}
         <Link href="https://twitter.com/uw_blockchain">
           <a target="_blank">UW Blockchain Club</a>
         </Link>
