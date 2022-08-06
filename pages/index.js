@@ -58,13 +58,15 @@ export default function Home() {
           <a target="_blank">Jackal</a>
         </Link>
         , a DAO in the Cosmos ecosystem focused on decentralizing private data
-        storage for an inter-chain world. I am also exploring blockchain
-        development and web3 research with the{" "}
+        storage for an inter-chain world.
+        <br />
+        <br />
+        I am also exploring blockchain development and web3 research with the{" "}
         <Link href="https://twitter.com/uw_blockchain">
           <a target="_blank">UW Blockchain Club</a>
         </Link>
-        .<br />
-        <br />I previously developed software at{" "}
+        .
+        I previously developed software at{" "}
         <Link href="https://atsautomation.com/">
           <a target="_blank">ATS Automation</a>
         </Link>{" "}
