@@ -14,5 +14,8 @@
     "react-scroll-restoration": "^1.0.10",
     "scroll-behavior": "^0.11.0",
     "styled-jsx": "^5.0.2"
+  },
+  "devDependencies": {
+    "prettier": "2.7.1"
   }
 }
