@@ -40,7 +40,7 @@ export default function Home() {
         </li>
         <li className="button">
           <a
-            href="mailto: eddyyanruguo@gmail.com"
+            href="mailto:eddyyanruguo@gmail.com"
             target="_blank"
             className="nocolor"
           >
