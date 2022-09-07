@@ -26,6 +26,11 @@ export default function Projects() {
             <a>snip3r</a>
           </Link>
         </li>
+        <li className="button">
+          <Link href="/projects/habipets">
+            <a>Habipets</a>
+          </Link>
+        </li>
       </ul>
       <Link href="/">
         <a className="nocolor">&#8592; Back to home</a>
