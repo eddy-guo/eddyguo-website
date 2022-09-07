@@ -84,3 +84,10 @@ img {
   display: inline-block;
   margin: 0px 5px 0px 5px;
 }
+
+.pet {
+  height: 1em;
+  width: 1em;
+  display: inline-block;
+  margin: 0px 0px 0px 10px;
+}

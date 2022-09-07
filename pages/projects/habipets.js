@@ -9,7 +9,8 @@ export default function Habipets() {
             </Head>
             <h1>
                 Habipets
-        <br />
+                <img className="pet" src="/habipets.png" alt="pet"></img>
+                <br />
         (ETHToronto 2022 hackathon)
       </h1>
             <p>
