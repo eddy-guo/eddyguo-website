@@ -55,18 +55,21 @@ export default function Home() {
         I'm a 3rd year student studying Computer Science at the University of
         Waterloo. I'm currently working as a Software Engineer at{" "}
         <Link href="https://jackaldao.com/">
-          <a target="_blank">Jackal</a>
+          <a target="_blank">JACKAL</a>
         </Link>
-        , a DAO in the Cosmos ecosystem focused on decentralizing private data
-        storage for an inter-chain world.
-        <br />
-        <br />
-        I am also exploring blockchain development and web3 research with the{" "}
+        , a{" "}
+        <Link href="https://cosmos.network/">
+          <a target="_blank">Cosmos</a>
+        </Link>{" "}
+        blockchain aimed at providing speed, utility, and private data storage
+        for an inter-chain world. I am also exploring blockchain development and
+        web3 research with the{" "}
         <Link href="https://twitter.com/uw_blockchain">
           <a target="_blank">UW Blockchain Club</a>
         </Link>
         .
-        I previously developed software at{" "}
+        <br />
+        <br /> I have previously developed software at{" "}
         <Link href="https://atsautomation.com/">
           <a target="_blank">ATS Automation</a>
         </Link>{" "}
