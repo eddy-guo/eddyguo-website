@@ -1,14 +1,18 @@
 import Head from "next/head";
 import Link from "next/link";
 
-export default function zk() {
+export default function jackal() {
   return (
     <>
       <Head>
-        <title>Zero-Knowledge | Eddy Guo</title>
+        <title>JACKAL | Eddy Guo</title>
       </Head>
-      <h1>Zero-Knowledge (ZK-Rollups, ZK-proofs)</h1>
-      <p></p>
+      <h1>Jackal Labs - Motivation, Tech, Protocol, Economics </h1>
+      <p>
+        <Link href="https://jackaldao.com/wp-content/uploads/2022/09/JACKAL-PROTOCOL-WHITEPAPER.pdf">
+          <a className="nocolor" target="_blank">&#128058;</a>
+        </Link>
+      </p>
       <ul className="bottom">
         <li className="button">
           <Link href="/research">

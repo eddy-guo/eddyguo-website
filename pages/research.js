@@ -20,13 +20,13 @@ export default function Research() {
       </p>
       <ul className="bottom">
         <li className="button">
-          <Link href="/research/MEV">
-            <a>MEV</a>
+          <Link href="/research/jackal">
+            <a>JACKAL</a>
           </Link>
         </li>
         <li className="button">
-          <Link href="/research/zero-knowledge">
-            <a>Zero-Knowledge</a>
+          <Link href="/research/mev">
+            <a>MEV</a>
           </Link>
         </li>
         <li className="button">

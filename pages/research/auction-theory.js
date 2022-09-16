@@ -12,11 +12,11 @@ export default function auction() {
         My interest in auction theory started when an NFT collection I was
         following closely (
         <Link href="https://ragnarokmeta.medium.com/">
-          <a target="_blank">Ragnarök - web3 MMORPG</a>
-        </Link>
-        ) had a different type of minting process than I was used to. They had
-        multiple whitelists for multiple selling days, but used a Fair Auction
-        (similar to a{" "}
+          <a target="_blank">Ragnarök</a>
+        </Link>{" "}
+        - web3 MMORPG) had a different type of minting process than I was used
+        to. They had multiple whitelists for multiple selling days, but used a
+        Fair Auction (similar to a{" "}
         <Link href="https://www.investopedia.com/terms/d/dutchauction.asp">
           <a target="_blank">Dutch Auction</a>
         </Link>
