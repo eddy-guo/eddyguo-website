@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
-import Image from "next/future/image";
+import Image from "next/image";
 
 export default function snipe() {
   return (
@@ -14,8 +14,9 @@ export default function snipe() {
           className="logo"
           src="/logo.png"
           alt="snip3r"
-          height="30"
-          width="30"
+          height={30}
+          width={30}
+          decoding="async"
           loading="eager"
           priority={true}
         />{" "}
@@ -23,8 +24,9 @@ export default function snipe() {
           className="shooter"
           src="/shooter.png"
           alt="shooter"
-          height="30"
-          width="30"
+          height={30}
+          width={30}
+          decoding="async"
           loading="eager"
           priority={true}
         />

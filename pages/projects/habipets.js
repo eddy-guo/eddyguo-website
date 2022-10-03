@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
-import Image from "next/future/image";
+import Image from "next/image";
 
 export default function Habipets() {
   return (
@@ -14,8 +14,9 @@ export default function Habipets() {
           className="pet"
           src="/habipets.png"
           alt="pet"
-          height="30"
-          width="30"
+          height={30}
+          width={30}
+          decoding="async"
           loading="eager"
           priority={true}
         />
