@@ -10,7 +10,7 @@ export default function snipe() {
       </Head>
       <h1>
         snip3r{" "}
-        <Image
+        <img
           className="logo"
           src="/logo.png"
           alt="snip3r"
@@ -20,8 +20,9 @@ export default function snipe() {
           decoding="async"
           loading="eager"
           priority={true}
+          prefetch="true"
         />{" "}
-        <Image
+        <img
           className="shooter"
           src="/shooter.png"
           alt="shooter"
@@ -31,6 +32,7 @@ export default function snipe() {
           decoding="async"
           loading="eager"
           priority={true}
+          prefetch="true"
         />
         <br />
         (ETHNewYork blockchain hackathon)
