@@ -9,19 +9,7 @@ export default function Habipets() {
         <title>Habipets | Eddy Guo</title>
       </Head>
       <h1>
-        Habipets{" "}
-        <img
-          className="pet"
-          src="/habipets.png"
-          alt="pet"
-          height={30}
-          width={30}
-          rel="preload"
-          decoding="async"
-          loading="eager"
-          priority={true}
-          prefetch="true"
-        />
+        Habipets <Image className="pet" src="/habipets.png" height={30} width={30} alt="pet" />
         <br />
         (ETHToronto 2022 hackathon)
       </h1>
