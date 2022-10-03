@@ -16,6 +16,7 @@ export default function snipe() {
           alt="snip3r"
           height={30}
           width={30}
+          rel="preload"
           decoding="async"
           loading="eager"
           priority={true}
@@ -26,6 +27,7 @@ export default function snipe() {
           alt="shooter"
           height={30}
           width={30}
+          rel="preload"
           decoding="async"
           loading="eager"
           priority={true}

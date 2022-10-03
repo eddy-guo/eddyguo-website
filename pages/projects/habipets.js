@@ -16,6 +16,7 @@ export default function Habipets() {
           alt="pet"
           height={30}
           width={30}
+          rel="preload"
           decoding="async"
           loading="eager"
           priority={true}
