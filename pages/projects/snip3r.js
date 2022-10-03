@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
+import Image from "next/future/image";
 
 export default function snipe() {
   return (
@@ -9,8 +10,8 @@ export default function snipe() {
       </Head>
       <h1>
         snip3r
-        <img className="logo" src="/logo.png" alt="snip3r"></img>
-        <img className="shooter" src="/shooter.png" alt="shooter"></img>
+        <Image className="logo" src="/logo.png" alt="snip3r" priority={true} />
+        <Image className="shooter" src="/shooter.png" alt="shooter" priority={true} />
         <br />
         (ETHNewYork blockchain hackathon)
       </h1>
