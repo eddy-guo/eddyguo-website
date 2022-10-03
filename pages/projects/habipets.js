@@ -10,7 +10,7 @@ export default function Habipets() {
       </Head>
       <h1>
         Habipets{" "}
-        <Image className="pet" src="/habipets.png" alt="pet" priority={true} />
+        <Image className="pet" src="/habipets.png" alt="pet" loading="eager" priority={true} />
         <br />
         (ETHToronto 2022 hackathon)
       </h1>

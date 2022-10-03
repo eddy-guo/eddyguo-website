@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
-import Image from "next/image";
+import Image from "next/future/image";
+
 export default function snipe() {
   return (
     <>
@@ -8,8 +9,8 @@ export default function snipe() {
         <title>snip3r | Eddy Guo</title>
       </Head>
       <h1>
-        snip3r
-        <Image className="logo" src="/logo.png" alt="snip3r" priority={true} />
+        snip3r{" "}
+        <Image className="logo" src="/logo.png" alt="snip3r" priority={true} />{" "}
         <Image className="shooter" src="/shooter.png" alt="shooter" priority={true} />
         <br />
         (ETHNewYork blockchain hackathon)
