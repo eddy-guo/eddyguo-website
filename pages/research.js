@@ -25,7 +25,7 @@ export default function Research() {
           </Link>
         </li>
         <li className="button">
-          <Link href="/research/mev-temp">
+          <Link href="/research/mev">
             <a>MEV</a>
           </Link>
         </li>
