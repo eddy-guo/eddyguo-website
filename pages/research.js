@@ -7,7 +7,7 @@ export default function Research() {
       <Head>
         <title>Research | Eddy Guo</title>
       </Head>
-      <h1>Web3 Research</h1>
+      <h1>Research</h1>
       <p>
         My "journey in crypto" started in January of 2022, when I was flipping
         NFTs and learning about smart contracts. Although I am very happy with
@@ -35,18 +35,8 @@ export default function Research() {
           </Link>
         </li>
         <li className="button">
-          <Link href="/research/51-attack">
-            <a>51% Attack</a>
-          </Link>
-        </li>
-        <li className="button">
           <Link href="/research/auction-theory">
             <a>Auction Theory</a>
-          </Link>
-        </li>
-        <li className="button">
-          <Link href="/research/crypto-money-laundering">
-            <a>Crypto Money Laundering</a>
           </Link>
         </li>
       </ul>
