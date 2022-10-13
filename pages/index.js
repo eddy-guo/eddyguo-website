@@ -78,32 +78,34 @@ export default function Home() {
         </Link>
         .
       </p>
-      <h2>Projects</h2>
-      <Link href='https://github.com/eddy-guo/snip3r'>
-        <a target='_blank'>snip3r</a>
-      </Link>
-      {" "}
-      <Link href='https://habipets.vercel.app/'>
-        <a target='_blank'>Habipets</a>
-      </Link>
-
-      <h2>Research</h2>
+      <h3>Projects</h3>
+      <ul id="projects">
+        <li>
+          <Link href='https://habipets.vercel.app/'>
+            <a target='_blank'>
+              Habipets — Gamified habit tracker with smart NFT rewards
+            </a>
+          </Link>
+        </li>
+        <li>
+          <Link href='https://github.com/eddy-guo/snip3r'>
+            <a target='_blank'>snip3r — NFT rarity sniping tool</a>
+          </Link>
+        </li>
+      </ul>
+      <h3>Research</h3>
       <Link href='/jackal'>
         <a>JACKAL</a>
-      </Link>
-      {" "}
+      </Link>{" "}
       <Link href='/arbitragebot'>
         <a>WETH/DAI Arbitrage Bot</a>
-      </Link>
-      {" "}
+      </Link>{" "}
       <Link href='/mev'>
         <a>MEV</a>
-      </Link>
-      {" "}
+      </Link>{" "}
       <Link href='/on-chain-analytics'>
         <a>On-Chain Analytics</a>
-      </Link>
-      {" "}
+      </Link>{" "}
       <Link href='/auction-theory'>
         <a>Auction Theory</a>
       </Link>
