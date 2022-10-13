@@ -25,13 +25,6 @@ export default function Habipets() {
         <br />
         Todo: writeup, event details (bounty, placement, vc opportunity)
       </p>
-      <ul className="bottom">
-        <li className="button">
-          <Link href="/projects">
-            <a className="nocolor">&#8592; Back to projects</a>
-          </Link>
-        </li>
-      </ul>
       <Link href="/">
         <a className="nocolor">&#8592; Back to home</a>
       </Link>

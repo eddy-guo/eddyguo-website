@@ -9,13 +9,6 @@ export default function MEV() {
       </Head>
       <h1>On-Chain Analytics (Dune, Parsec)</h1>
       <p>Coming soon: Dune dashboards, parsec, opensea volume analytics, rarity.tools </p>
-      <ul className="bottom">
-        <li className="button">
-          <Link href="/research">
-            <a className="nocolor">&#8592; Back to research</a>
-          </Link>
-        </li>
-      </ul>
       <Link href="/">
         <a className="nocolor">&#8592; Back to home</a>
       </Link>

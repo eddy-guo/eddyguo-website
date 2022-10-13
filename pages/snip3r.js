@@ -23,13 +23,6 @@ export default function snipe() {
         <br />
         Todo: writeup, finish code, event details, resume
       </p>
-      <ul className="bottom">
-        <li className="button">
-          <Link href="/projects">
-            <a className="nocolor">&#8592; Back to projects</a>
-          </Link>
-        </li>
-      </ul>
       <Link href="/">
         <a className="nocolor">&#8592; Back to home</a>
       </Link>

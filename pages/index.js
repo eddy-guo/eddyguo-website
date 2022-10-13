@@ -79,15 +79,44 @@ export default function Home() {
         </Link>
         .
       </p>
+      <h2>Projects</h2>
       <ul className="bottom">
         <li className="button">
-          <Link href="/research">
-            <a>Research</a>
+          <Link href="/snip3r">
+            <a>snip3r</a>
           </Link>
         </li>
         <li className="button">
-          <Link href="/projects">
-            <a>Projects</a>
+          <Link href="/habipets">
+            <a>Habipets</a>
+          </Link>
+        </li>
+      </ul>
+      <h2>Research</h2>
+      <ul className="bottom">
+        <li className="button">
+          <Link href="/jackal">
+            <a>JACKAL</a>
+          </Link>
+        </li>
+        <li className="button">
+          <Link href="/arbitragebot">
+            <a>WETH/DAI Arbitrage Bot</a>
+          </Link>
+        </li>
+        <li className="button">
+          <Link href="/mev">
+            <a>MEV</a>
+          </Link>
+        </li>
+        <li className="button">
+          <Link href="/on-chain-analytics">
+            <a>On-Chain Analytics</a>
+          </Link>
+        </li>
+        <li className="button">
+          <Link href="/auction-theory">
+            <a>Auction Theory</a>
           </Link>
         </li>
       </ul>

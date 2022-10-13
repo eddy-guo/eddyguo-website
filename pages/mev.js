@@ -52,13 +52,6 @@ export default function MEV() {
           </Link>
         </li>
       </ul>
-      <ul className="bottom">
-        <li className="button">
-          <Link href="/research">
-            <a className="nocolor">&#8592; Back to research</a>
-          </Link>
-        </li>
-      </ul>
       <Link href="/">
         <a className="nocolor">&#8592; Back to home</a>
       </Link>
