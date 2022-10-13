@@ -28,10 +28,6 @@ a {
   background-color: #e3ddff;
 }
 
-.nocolor {
-  background-color: transparent;
-}
-
 a:visited {
   text-decoration: none;
 }
@@ -50,13 +46,17 @@ h1 {
   padding-right: 15px;
 }
 
-.top {
+#top {
   padding: 0;
   list-style-type: none;
   text-align: right;
 }
 
-.bottom {
+#top > li > a {
+  background: transparent;
+}
+
+#bottom {
   padding: 0;
   list-style-type: none;
   text-align: left;
@@ -70,4 +70,12 @@ h1 {
   padding: 0;
   list-style-type: none;
   text-align: left;
+}
+
+#projects > li:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+#projects > li > a {
+  background: transparent;
 }

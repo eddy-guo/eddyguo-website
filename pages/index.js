@@ -8,31 +8,19 @@ export default function Home() {
         <title>Eddy Guo</title>
       </Head>
       {/* Unordered list */}
-      <ul className='top'>
+      <ul id='top'>
         <li className='button'>
-          <a
-            href='https://github.com/eddy-guo'
-            target='_blank'
-            className='nocolor'
-          >
+          <a href='https://github.com/eddy-guo' target='_blank'>
             GitHub
           </a>
         </li>
         <li className='button'>
-          <a
-            href='https://twitter.com/spagh_eddy'
-            target='_blank'
-            className='nocolor'
-          >
+          <a href='https://twitter.com/spagh_eddy' target='_blank'>
             Twitter
           </a>
         </li>
         <li className='button'>
-          <a
-            href='mailto:eddyyanruguo@gmail.com'
-            target='_blank'
-            className='nocolor'
-          >
+          <a href='mailto:eddyyanruguo@gmail.com' target='_blank'>
             Email
           </a>
         </li>
@@ -41,7 +29,6 @@ export default function Home() {
             href='/Resume_Eddy_Guo.pdf'
             target='_blank'
             rel='noopener noreferrer'
-            className='nocolor'
           >
             Resume
           </a>
@@ -81,9 +68,17 @@ export default function Home() {
       <h3>Projects</h3>
       <ul id='projects'>
         <li>
+          <Link href='https://airdrop.jackalprotocol.com'>
+            <a target='_blank'>
+              Jackal Airdrop Checker — Calculate address $JKL airdrop with Keplr
+              integration
+            </a>
+          </Link>
+        </li>
+        <li>
           <Link href='https://habipets.vercel.app/'>
             <a target='_blank'>
-              Habipets — Gamified habit tracker with smart NFT rewards
+              Habipets — Gamified habit tracker featuring smart NFT rewards
             </a>
           </Link>
         </li>
@@ -92,9 +87,24 @@ export default function Home() {
             <a target='_blank'>snip3r — NFT rarity sniping tool</a>
           </Link>
         </li>
+        <li>
+          <Link href='https://github.com/eddy-guo/eddy-selfbot'>
+            <a target='_blank'>
+              Eddy Selfbot — Script for auto-joining exclusive community invites
+            </a>
+          </Link>
+        </li>
+        <li>
+          <Link href='https://github.com/eddy-guo/crypto-tracker'>
+            <a target='_blank'>
+              Crypto Tracker — Keep track of crypto price, exchanges, and wallet
+              info
+            </a>
+          </Link>
+        </li>
       </ul>
       <h3>Research</h3>
-      <ul className='bottom'>
+      <ul id='bottom'>
         <li className='button'>
           <Link href='/jackal'>
             <a>JACKAL</a>
