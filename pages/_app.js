@@ -15,23 +15,23 @@ const App = ({ Component, pageProps }) => {
         <link rel="icon" href="/images/favicon.ico" />
 
         {/* Primary Meta Tags */}
-        <title>Hey, I'm Eddy Guo 🍝</title>
-        <meta name="title" content="Hey, I'm Eddy Guo 🍝" />
-        <meta name="description" content="This is the regular description of my website." />
+        <title>Eddy Guo</title>
+        <meta name="title" content="Eddy Guo" />
+        <meta name="description" content="Software developer enthusiastic about web3 and blockchain development." />
 
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.eddyguo.ca/" />
-        <meta property="og:title" content="Hey, I'm Eddy Guo 🍝" />
-        <meta property="og:description" content="This is the Facebook description of my website." />
-        <meta property="og:image" content="Image should go here." />
+        <meta property="og:title" content="I'm Eddy Guo" />
+        <meta property="og:description" content="Software developer enthusiastic about web3 and blockchain development." />
+        <meta property="og:image" content="/ogimage.png" />
         
         {/* Twitter */}
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://www.eddyguo.ca/" />
-        <meta property="twitter:title" content="Hey, I'm Eddy Guo 🍝" />
-        <meta property="twitter:description" content="This is the Twitter description of my website." />
-        <meta property="twitter:image" content="Image should go here." />
+        <meta property="twitter:title" content="Eddy Guo" />
+        <meta property="twitter:description" content="Software developer enthusiastic about web3 and blockchain development." />
+        <meta property="twitter:image" content="/ogimage.png" />
       </Head>
       <Component {...pageProps} />
     </d>
