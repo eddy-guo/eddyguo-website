@@ -90,11 +90,6 @@ export default function Home() {
             <a>Projects</a>
           </Link>
         </li>
-        <li className="button">
-          <Link href="/writing">
-            <a>Writing</a>
-          </Link>
-        </li>
       </ul>
     </>
   )
