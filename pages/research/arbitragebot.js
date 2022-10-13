@@ -161,8 +161,8 @@ export default function Projects() {
       </ul>
       <ul className="bottom">
         <li className="button">
-          <Link href="/projects">
-            <a className="nocolor">&#8592; Back to projects</a>
+          <Link href="/research">
+            <a className="nocolor">&#8592; Back to research</a>
           </Link>
         </li>
       </ul>

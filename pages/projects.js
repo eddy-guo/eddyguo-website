@@ -17,11 +17,6 @@ export default function Projects() {
       </p>
       <ul className="bottom">
         <li className="button">
-          <Link href="/projects/arbitragebot">
-            <a>WETH/DAI Arbitrage Bot</a>
-          </Link>
-        </li>
-        <li className="button">
           <Link href="/projects/snip3r">
             <a>snip3r</a>
           </Link>

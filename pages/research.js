@@ -25,6 +25,11 @@ export default function Research() {
           </Link>
         </li>
         <li className="button">
+          <Link href="/research/arbitragebot">
+            <a>WETH/DAI Arbitrage Bot</a>
+          </Link>
+        </li>
+        <li className="button">
           <Link href="/research/mev">
             <a>MEV</a>
           </Link>
