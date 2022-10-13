@@ -22,16 +22,16 @@ const App = ({ Component, pageProps }) => {
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.eddyguo.ca/" />
-        <meta property="og:title" content="I'm Eddy Guo" />
+        <meta property="og:title" content="Eddy Guo" />
         <meta property="og:description" content="Software developer enthusiastic about web3 and blockchain development." />
-        <meta property="og:image" content="/ogimage.png" />
+        <meta property="og:image" content="https://www.eddyguo.ca//ogimage.png" />
         
         {/* Twitter */}
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://www.eddyguo.ca/" />
         <meta property="twitter:title" content="Eddy Guo" />
         <meta property="twitter:description" content="Software developer enthusiastic about web3 and blockchain development." />
-        <meta property="twitter:image" content="/ogimage.png" />
+        <meta property="twitter:image" content="https://www.eddyguo.ca//ogimage.png" />
       </Head>
       <Component {...pageProps} />
     </d>
