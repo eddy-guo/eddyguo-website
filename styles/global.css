@@ -71,27 +71,3 @@ h1 {
   list-style-type: none;
   text-align: left;
 }
-
-/* images */
-img {
-  max-width: 100%;
-  display: block;
-}
-
-.logo {
-  height: 1em;
-  width: 1em;
-  display: inline-block;
-}
-
-.shooter {
-  height: 1em;
-  width: 1em;
-  display: inline-block;
-}
-
-.pet {
-  height: 1em;
-  width: 1em;
-  display: inline-block;
-}

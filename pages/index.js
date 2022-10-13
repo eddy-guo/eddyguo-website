@@ -110,11 +110,6 @@ export default function Home() {
             <a>Auction Theory</a>
           </Link>
         </li>
-        <li className='button'>
-          <Link href='/on-chain-analytics'>
-            <a>On-Chain Analytics</a>
-          </Link>
-        </li>
       </ul>
     </>
   );
