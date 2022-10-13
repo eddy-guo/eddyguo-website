@@ -6,7 +6,6 @@ export default function Home() {
     <>
       <Head>
         <title>Eddy Guo</title>
-        <link rel='icon' href='/images/favicon.ico' />
       </Head>
       {/* Unordered list */}
       <ul className='top'>
