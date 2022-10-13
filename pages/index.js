@@ -79,12 +79,12 @@ export default function Home() {
         .
       </p>
       <h2>Projects</h2>
-      <Link href='/snip3r'>
-        <a>snip3r</a>
+      <Link href='https://github.com/eddy-guo/snip3r'>
+        <a target='_blank'>snip3r</a>
       </Link>
       {" "}
-      <Link href='/habipets'>
-        <a>Habipets</a>
+      <Link href='https://habipets.vercel.app/'>
+        <a target='_blank'>Habipets</a>
       </Link>
 
       <h2>Research</h2>
