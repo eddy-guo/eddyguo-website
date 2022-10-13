@@ -9,7 +9,7 @@ export default function Habipets() {
         <title>Habipets | Eddy Guo</title>
       </Head>
       <h1>
-        Habipets <Image className="pet" src="/habipets.png" height={30} width={30} alt="pet" />
+        Habipets <Image className="pet" src="/habipets.png" height={30} width={30} alt="good-pet" />
         <br />
         (ETHToronto 2022 hackathon)
       </h1>

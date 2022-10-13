@@ -10,7 +10,7 @@ export default function snipe() {
       </Head>
       <h1>
         snip3r{" "}
-        <Image className="logo" src="/logo.png" height={30} width={30} alt="snip3r" />{" "}
+        <Image className="logo" src="/logo.png" height={30} width={30} alt="snip3r-logo" />{" "}
         <Image className="shooter" src="/shooter.png" height={30} width={30} alt="shooter" />
         <br />
         (ETHNewYork blockchain hackathon)

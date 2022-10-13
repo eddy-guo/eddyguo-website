@@ -1,5 +1,5 @@
-import Head from "next/head";
-import Link from "next/link";
+import Head from 'next/head'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -10,16 +10,6 @@ export default function Home() {
       </Head>
       {/* Unordered list */}
       <ul className="top">
-        <li className="button">
-          <a
-            href="/Resume_Eddy_Guo.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="nocolor"
-          >
-            Resume
-          </a>
-        </li>
         <li className="button">
           <a
             href="https://github.com/eddy-guo"
@@ -47,33 +37,43 @@ export default function Home() {
             Email
           </a>
         </li>
+        <li className="button">
+          <a
+            href="/Resume_Eddy_Guo.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="nocolor"
+          >
+            Resume
+          </a>
+        </li>
       </ul>
       <h1>
         <b>Hey, I'm Eddy Guo &#127837;</b>
       </h1>
       <p>
         I'm a 3rd year student studying Computer Science at the University of
-        Waterloo. I'm currently working as a Software Engineer at{" "}
+        Waterloo. I'm currently working as a Software Engineer at{' '}
         <Link href="https://jackaldao.com/">
           <a target="_blank">JACKAL</a>
         </Link>
-        , a{" "}
+        , a{' '}
         <Link href="https://cosmos.network/">
           <a target="_blank">Cosmos</a>
-        </Link>{" "}
+        </Link>{' '}
         blockchain aimed at providing speed, utility, and private data storage
         for an inter-chain world. I am also exploring blockchain development and
-        web3 research with the{" "}
+        web3 research with the{' '}
         <Link href="https://twitter.com/uw_blockchain">
           <a target="_blank">UW Blockchain Club</a>
         </Link>
         .
         <br />
-        <br /> I have previously developed software at{" "}
+        <br /> I have previously developed software at{' '}
         <Link href="https://atsautomation.com/">
           <a target="_blank">ATS Automation</a>
-        </Link>{" "}
-        and{" "}
+        </Link>{' '}
+        and{' '}
         <Link href="https://www.processfusion.com/">
           <a target="_blank">Process Fusion</a>
         </Link>
@@ -97,5 +97,5 @@ export default function Home() {
         </li>
       </ul>
     </>
-  );
+  )
 }
