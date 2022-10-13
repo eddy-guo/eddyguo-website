@@ -79,7 +79,7 @@ export default function Home() {
         .
       </p>
       <h3>Projects</h3>
-      <ul id="projects">
+      <ul id='projects'>
         <li>
           <Link href='https://habipets.vercel.app/'>
             <a target='_blank'>
@@ -94,21 +94,28 @@ export default function Home() {
         </li>
       </ul>
       <h3>Research</h3>
-      <Link href='/jackal'>
-        <a>JACKAL</a>
-      </Link>{" "}
-      <Link href='/arbitragebot'>
-        <a>WETH/DAI Arbitrage Bot</a>
-      </Link>{" "}
-      <Link href='/mev'>
-        <a>MEV</a>
-      </Link>{" "}
-      <Link href='/on-chain-analytics'>
-        <a>On-Chain Analytics</a>
-      </Link>{" "}
-      <Link href='/auction-theory'>
-        <a>Auction Theory</a>
-      </Link>
+      <ul className='bottom'>
+        <li className='button'>
+          <Link href='/jackal'>
+            <a>JACKAL</a>
+          </Link>
+        </li>
+        <li className='button'>
+          <Link href='/arbitragebot'>
+            <a>WETH/DAI Arbitrage Bot</a>
+          </Link>
+        </li>
+        <li className='button'>
+          <Link href='/auction-theory'>
+            <a>Auction Theory</a>
+          </Link>
+        </li>
+        <li className='button'>
+          <Link href='/on-chain-analytics'>
+            <a>On-Chain Analytics</a>
+          </Link>
+        </li>
+      </ul>
     </>
   );
 }
