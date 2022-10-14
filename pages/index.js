@@ -55,11 +55,11 @@ export default function Home() {
         </Link>
         .
         <br />
-        <br /> I have previously developed software at{" "}
+        <br /> I previously built manufacturing execution systems at{" "}
         <Link href='https://atsautomation.com/'>
           <a target='_blank'>ATS Automation</a>
         </Link>{" "}
-        and{" "}
+        and implemented cloud automation features at{" "}
         <Link href='https://www.processfusion.com/'>
           <a target='_blank'>Process Fusion</a>
         </Link>
