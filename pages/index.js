@@ -7,7 +7,6 @@ export default function Home() {
       <Head>
         <title>Eddy Guo</title>
       </Head>
-      {/* Unordered list */}
       <ul id='top'>
         <li className='button'>
           <a href='https://github.com/eddy-guo' target='_blank'>
@@ -34,6 +33,8 @@ export default function Home() {
           </a>
         </li>
       </ul>
+      <main>
+        <div className="intro">
       <h1>
         <b>Hey, I'm Eddy Guo &#127837;</b>
       </h1>
@@ -65,6 +66,8 @@ export default function Home() {
         </Link>
         .
       </p>
+      </div>
+      <div className="projects">
       <h3>Projects</h3>
       <ul id='projects'>
         <li>
@@ -103,6 +106,8 @@ export default function Home() {
           </Link>
         </li>
       </ul>
+      </div>
+      <div className="research">
       <h3>Research</h3>
       <ul id='bottom'>
         <li className='button'>
@@ -121,6 +126,8 @@ export default function Home() {
           </Link>
         </li>
       </ul>
+      </div>
+      </main>
     </>
   );
 }
