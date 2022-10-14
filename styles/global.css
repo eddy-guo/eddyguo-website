@@ -66,16 +66,16 @@ h1 {
   background: transparent;
 }
 
-#projects {
+#projects-list {
   padding: 0;
   list-style-type: none;
   text-align: left;
 }
 
-#projects > li:not(:last-child) {
+#projects-list > li:not(:last-child) {
   margin-bottom: 15px;
 }
 
-#projects > li > a {
+#projects-list > li > a {
   background: transparent;
 }
