@@ -38,9 +38,9 @@ export default function Home() {
             <b>Hey, I'm Eddy Guo &#127837;</b>
           </h1>
           <p>
-            I'm a 3rd year student studying Computer Science at the University
+            I'm a 3rd year Computer Science student studying at the University
             of Waterloo. I'm currently working as a Software Engineer at{" "}
-            <Link href="https://jackaldao.com/">
+            <Link href="https://jackalprotocol.com/">
               <a target="_blank">JACKAL</a>
             </Link>
             , a{" "}
@@ -88,7 +88,7 @@ export default function Home() {
             <li>
               <Link href="https://airdrop.jackalprotocol.com">
                 <a target="_blank">
-                  Jackal Airdrop Checker — Calculate address $JKL airdrop with
+                  Jackal Airdrop Checker — Calculate address' $JKL airdrop with
                   Keplr integration
                 </a>
               </Link>
@@ -116,7 +116,7 @@ export default function Home() {
             <li>
               <Link href="https://github.com/eddy-guo/crypto-tracker">
                 <a target="_blank">
-                  Crypto Tracker — Keep track of crypto price, exchanges, and
+                  Crypto Tracker — Keep track of cryptocurrency price, exchanges, and
                   wallet info
                 </a>
               </Link>
