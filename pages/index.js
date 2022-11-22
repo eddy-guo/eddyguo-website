@@ -69,6 +69,13 @@ export default function Home() {
         <div className="projects">
           <h3>Projects</h3>
           <ul id="projects-list">
+          <li>
+              <Link href="https://www.coherentapp.tech/">
+                <a target="_blank">
+                  Validator Monitor - Discord Bot monitoring Cosmos blockchain validators and nodes
+                </a>
+              </Link>
+            </li>
             <li>
               <Link href="https://www.coherentapp.tech/">
                 <a target="_blank">
@@ -110,14 +117,6 @@ export default function Home() {
                 <a target="_blank">
                   Eddy Selfbot — Script for auto-joining exclusive community
                   invites
-                </a>
-              </Link>
-            </li>
-            <li>
-              <Link href="https://github.com/eddy-guo/crypto-tracker">
-                <a target="_blank">
-                  Crypto Tracker — Keep track of cryptocurrency price, exchanges, and
-                  wallet info
                 </a>
               </Link>
             </li>
