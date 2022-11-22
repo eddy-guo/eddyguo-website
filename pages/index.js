@@ -72,7 +72,7 @@ export default function Home() {
           <li>
               <Link href="https://www.coherentapp.tech/">
                 <a target="_blank">
-                  Validator Monitor - Discord Bot monitoring various Cosmos blockchain validators and nodes
+                  Validator Monitor - Discord Bot monitoring Cosmos blockchains and their validators/nodes
                 </a>
               </Link>
             </li>
