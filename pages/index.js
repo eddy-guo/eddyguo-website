@@ -70,7 +70,7 @@ export default function Home() {
           <h3>Projects</h3>
           <ul id="projects-list">
           <li>
-              <Link href="https://www.coherentapp.tech/">
+              <Link href="https://github.com/eddy-guo/validator-monitor">
                 <a target="_blank">
                   Validator Monitor - Discord Bot monitoring Cosmos blockchains and their validators/nodes
                 </a>
