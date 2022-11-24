@@ -122,7 +122,7 @@ export default function Home() {
             </li>
           </ul>
         </div>
-        <div className="research">
+        {/* <div className="research">
           <h3>Research</h3>
           <ul id="bottom">
             <li className="button">
@@ -141,7 +141,7 @@ export default function Home() {
               </Link>
             </li>
           </ul>
-        </div>
+        </div> */}
       </main>
     </>
   );
