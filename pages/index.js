@@ -95,7 +95,7 @@ export default function Home() {
             <li>
               <Link href="https://airdrop.jackalprotocol.com">
                 <a target="_blank">
-                  Jackal Airdrop Checker — Calculate address' $JKL airdrop with
+                  Jackal Airdrop Checker — Calculate address's $JKL airdrop with
                   Keplr integration
                 </a>
               </Link>
