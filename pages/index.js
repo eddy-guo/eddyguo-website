@@ -69,10 +69,18 @@ export default function Home() {
         <div className="projects">
           <h3>Projects</h3>
           <ul id="projects-list">
-          <li>
+            <li>
+              <Link href="https://github.com/eddy-guo/storage-purchase-notifier">
+                <a target="_blank">
+                  Storage Purchase Notifier - Track Jackal's storage purchases in live-time with Slack alerts (WIP)
+                </a>
+              </Link>
+            </li>
+            <li>
               <Link href="https://github.com/eddy-guo/validator-monitor">
                 <a target="_blank">
-                  Validator Monitor - Discord Bot monitoring Cosmos blockchains and their validators/nodes
+                  Validator Monitor - Discord Bot monitoring Cosmos blockchains
+                  and their validators/nodes
                 </a>
               </Link>
             </li>
