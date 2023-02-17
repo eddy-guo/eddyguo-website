@@ -25,7 +25,7 @@ export default function Home() {
         </li>
         <li className="button">
           <a
-            href="/Resume_Eddy_Guo.pdf"
+            href="/Eddy_Guo_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer">
             Resume
