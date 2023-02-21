@@ -72,7 +72,8 @@ export default function Home() {
             <li>
               <Link href="https://github.com/eddy-guo/storage-purchase-notifier">
                 <a target="_blank">
-                  Storage Purchase Notifier - Track Jackal's storage purchases in live-time with Slack alerts (WIP)
+                  Storage Purchase Notifier - Track Jackal's storage purchases
+                  in live-time with Slack alerts (WIP)
                 </a>
               </Link>
             </li>
@@ -129,6 +130,19 @@ export default function Home() {
               </Link>
             </li>
           </ul>
+          <div className="footer">
+            <span>
+              <Link href="https://d3l-n3st.vercel.app/prev">
+                <a>&lt;&lt;</a>
+              </Link>
+              <Link href="https://d3l-n3st.vercel.app/">
+                <a>Webring</a>
+              </Link>
+              <Link href="https://d3l-n3st.vercel.app/next">
+                <a>&gt;&gt;</a>
+              </Link>
+            </span>
+          </div>
         </div>
         {/* <div className="research">
           <h3>Research</h3>

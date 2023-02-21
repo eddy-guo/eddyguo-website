@@ -79,3 +79,7 @@ h1 {
 #projects-list > li > a {
   background: transparent;
 }
+
+.footer {
+  text-align: center;
+}
