@@ -83,3 +83,13 @@ h1 {
 .footer {
   text-align: center;
 }
+
+.footer > span > a {
+  background-color: transparent; 
+
+}
+
+.footer > span > a:hover {
+  text-decoration: none;
+  background-color: #e3ddff;
+}

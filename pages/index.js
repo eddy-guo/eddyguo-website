@@ -136,7 +136,7 @@ export default function Home() {
                 <a>&lt;&lt;</a>
               </Link>
               <Link href="https://d3l-n3st.vercel.app/">
-                <a>Webring</a>
+                <a> &#127758; </a>
               </Link>
               <Link href="https://d3l-n3st.vercel.app/next">
                 <a>&gt;&gt;</a>
