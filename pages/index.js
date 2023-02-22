@@ -133,13 +133,13 @@ export default function Home() {
           <div className="footer">
             <span>
               <Link href="https://d3l-n3st.vercel.app/prev">
-                <a>&lt;&lt;</a>
-              </Link>
+                <a>«</a>
+              </Link>{" "}
               <Link href="https://d3l-n3st.vercel.app/">
-                <a> &#127758; </a>
-              </Link>
+                <a>&#10023;</a>
+              </Link>{" "}
               <Link href="https://d3l-n3st.vercel.app/next">
-                <a>&gt;&gt;</a>
+                <a>»</a>
               </Link>
             </span>
           </div>
