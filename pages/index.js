@@ -35,27 +35,28 @@ export default function Home() {
       <main>
         <div className="intro">
           <h1>
-            <b>Hey, I'm Eddy Guo &#127837;</b>
+            <b>Hi, I'm Eddy Guo &#127837;</b>
           </h1>
           <p>
-            I'm a 3rd year Computer Science student studying at the University
-            of Waterloo. I'm currently working as a Software Engineer at{" "}
-            <Link href="https://jackalprotocol.com/">
-              <a target="_blank">JACKAL</a>
+            I'm a 3rd year Computer Science student studying at{" "}
+            <Link href="https://uwaterloo.ca/">
+              <a target="_blank">UWaterloo</a>
             </Link>
-            , a{" "}
-            <Link href="https://cosmos.network/">
-              <a target="_blank">Cosmos</a>
-            </Link>{" "}
-            blockchain aimed at providing speed, utility, and private data
-            storage for an inter-chain world. I am also exploring blockchain
-            development and web3 research with the{" "}
+            , exploring blockchain development and web3 research with the{" "}
             <Link href="https://twitter.com/uw_blockchain">
               <a target="_blank">UW Blockchain Club</a>
             </Link>
-            .
+            . I am soon to be working as a Software Developer for{" "}
+            <Link href="https://axelar.network/">
+            <a target="_blank">Axelar</a>
+            </Link>
+            , a Cosmos platform securing cross-chain communication.
             <br />
-            <br /> I previously built manufacturing execution systems at{" "}
+            <br /> I previously developed software for{" "}
+            <Link href="https://jackalprotocol.com/">
+              <a target="_blank">Jackal Labs</a>
+            </Link>
+            , built manufacturing execution systems at{" "}
             <Link href="https://atsautomation.com/">
               <a target="_blank">ATS Automation</a>
             </Link>{" "}
