@@ -48,7 +48,7 @@ export default function Home() {
             </Link>
             . I am soon to be working as a Software Developer for{" "}
             <Link href="https://axelar.network/">
-            <a target="_blank">Axelar</a>
+              <a target="_blank">Axelar</a>
             </Link>
             , a Cosmos platform securing cross-chain communication.
             <br />
@@ -70,14 +70,6 @@ export default function Home() {
         <div className="projects">
           <h3>Projects</h3>
           <ul id="projects-list">
-            <li>
-              <Link href="https://github.com/eddy-guo/storage-purchase-notifier">
-                <a target="_blank">
-                  Storage Purchase Notifier - Track Jackal's storage purchases
-                  in live-time with Slack alerts (WIP)
-                </a>
-              </Link>
-            </li>
             <li>
               <Link href="https://github.com/eddy-guo/validator-monitor">
                 <a target="_blank">
