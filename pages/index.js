@@ -46,7 +46,7 @@ export default function Home() {
             <Link href="https://twitter.com/uw_blockchain">
               <a target="_blank">UW Blockchain Club</a>
             </Link>
-            . I am soon to be working as a Software Developer for{" "}
+            . I'm currently working as a Software Developer for{" "}
             <Link href="https://axelar.network/">
               <a target="_blank">Axelar</a>
             </Link>
