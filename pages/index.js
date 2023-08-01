@@ -27,7 +27,8 @@ export default function Home() {
           <a
             href="/Eddy_Guo_Resume.pdf"
             target="_blank"
-            rel="noopener noreferrer">
+            rel="noopener noreferrer"
+          >
             Resume
           </a>
         </li>
@@ -42,21 +43,17 @@ export default function Home() {
             <Link href="https://uwaterloo.ca/">
               <a target="_blank">UWaterloo</a>
             </Link>
-            , exploring blockchain development and web3 research with the{" "}
-            <Link href="https://twitter.com/uw_blockchain">
-              <a target="_blank">UW Blockchain Club</a>
-            </Link>
             . I'm currently working as a Software Developer for{" "}
             <Link href="https://axelar.network/">
               <a target="_blank">Axelar</a>
             </Link>
             , a Cosmos platform securing cross-chain communication.
             <br />
-            <br /> I previously developed software for{" "}
+            <br /> I previously built frontend dashboards for{" "}
             <Link href="https://jackalprotocol.com/">
               <a target="_blank">Jackal Labs</a>
             </Link>
-            , built manufacturing execution systems at{" "}
+            , developed manufacturing execution systems at{" "}
             <Link href="https://atsautomation.com/">
               <a target="_blank">ATS Automation</a>
             </Link>{" "}
