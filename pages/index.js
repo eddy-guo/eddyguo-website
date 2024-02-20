@@ -27,8 +27,7 @@ export default function Home() {
           <a
             href="/Eddy_Guo_Resume.pdf"
             target="_blank"
-            rel="noopener noreferrer"
-          >
+            rel="noopener noreferrer">
             Resume
           </a>
         </li>
@@ -36,30 +35,27 @@ export default function Home() {
       <main>
         <div className="intro">
           <h1>
-            <b>Hi, I'm Eddy Guo &#127837;</b>
+            <b>Hey, I'm Eddy Guo &#127837;</b>
           </h1>
           <p>
             I'm a 3rd year Computer Science student studying at{" "}
             <Link href="https://uwaterloo.ca/">
               <a target="_blank">UWaterloo</a>
             </Link>
-            . I'm currently working as a Software Developer for{" "}
+            . I'm currently working as a Fullstack Developer for{" "}
+            <Link href="https://www.flood.bid/">
+              <a target="_blank">Flood</a>
+            </Link>
+            , a next-gen DEX aggregator optimizing the trading experience.
+            <br />
+            <br />
+            Previously: Software Development Intern for{" "}
             <Link href="https://axelar.network/">
               <a target="_blank">Axelar</a>
             </Link>
-            , a Cosmos platform securing cross-chain communication.
-            <br />
-            <br /> I previously built frontend dashboards for{" "}
+            , Software Engineer at{" "}
             <Link href="https://jackalprotocol.com/">
               <a target="_blank">Jackal Labs</a>
-            </Link>
-            , developed manufacturing execution systems at{" "}
-            <Link href="https://atsautomation.com/">
-              <a target="_blank">ATS Automation</a>
-            </Link>{" "}
-            and implemented cloud automation features at{" "}
-            <Link href="https://www.processfusion.com/">
-              <a target="_blank">Process Fusion</a>
             </Link>
             .
           </p>
@@ -134,26 +130,6 @@ export default function Home() {
             </span>
           </div>
         </div>
-        {/* <div className="research">
-          <h3>Research</h3>
-          <ul id="bottom">
-            <li className="button">
-              <Link href="/jackal">
-                <a>JACKAL</a>
-              </Link>
-            </li>
-            <li className="button">
-              <Link href="/arbitragebot">
-                <a>WETH/DAI Arbitrage Bot</a>
-              </Link>
-            </li>
-            <li className="button">
-              <Link href="/auction-theory">
-                <a>Auction Theory</a>
-              </Link>
-            </li>
-          </ul>
-        </div> */}
       </main>
     </>
   );
