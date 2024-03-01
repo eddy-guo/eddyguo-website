@@ -49,7 +49,7 @@ export default function Home() {
             , a next-gen DEX aggregator optimizing the trading experience.
             <br />
             <br />
-            Previously: Software Development Intern for{" "}
+            Previously - Software Development Intern for{" "}
             <Link href="https://axelar.network/">
               <a target="_blank">Axelar</a>
             </Link>
