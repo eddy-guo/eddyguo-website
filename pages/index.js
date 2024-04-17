@@ -38,7 +38,7 @@ export default function Home() {
             <b>Hey, I'm Eddy Guo &#127837;</b>
           </h1>
           <p>
-            I'm a 3rd year Computer Science student studying at{" "}
+            I'm a 4th year Computer Science student studying at{" "}
             <Link href="https://uwaterloo.ca/">
               <a target="_blank">UWaterloo</a>
             </Link>
