@@ -27,7 +27,8 @@ export default function Home() {
           <a
             href="/Eddy_Guo_Resume.pdf"
             target="_blank"
-            rel="noopener noreferrer">
+            rel="noopener noreferrer"
+          >
             Resume
           </a>
         </li>
@@ -35,18 +36,23 @@ export default function Home() {
       <main>
         <div className="intro">
           <h1>
-            <b>Hey, I'm Eddy Guo &#127837;</b>
+            <b>Hey, I'm Eddy Guo &#129446; &#127837;</b>
           </h1>
           <p>
             I'm a 4th year Computer Science student studying at{" "}
             <Link href="https://uwaterloo.ca/">
               <a target="_blank">UWaterloo</a>
             </Link>
-            . I'm currently working as a Fullstack Developer for{" "}
-            <Link href="https://www.flood.bid/">
+            . I'm currently working as a Software Engineer for{" "}
+            <Link href="https://x.com/bidflood">
               <a target="_blank">Flood</a>
             </Link>
-            , a next-gen DEX aggregator optimizing the trading experience.
+            , developing innovative routing algorithms to optimize trading.
+            <br />
+            <br />
+            <b>
+              <u>Seeking 2025 full-time engineering roles!</u>
+            </b>
             <br />
             <br />
             Previously - Software Development Intern for{" "}
