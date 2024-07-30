@@ -79,7 +79,7 @@ h3 {
 }
 
 #projects-list > li:not(:last-child) {
-  margin-bottom: 15px;
+  margin-bottom: 16px;
 }
 
 #projects-list > li > a {
