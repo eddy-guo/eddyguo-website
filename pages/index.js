@@ -53,15 +53,17 @@ export default function Home() {
                 <u>Seeking 2025 full-time engineering roles!</u>
               </b>
             </p>
-            <p>Previously - Software Development Intern for{" "}
-            <Link href="https://axelar.network/">
-              <a target="_blank">Axelar</a>
-            </Link>
-            , Software Engineer at{" "}
-            <Link href="https://jackalprotocol.com/">
-              <a target="_blank">Jackal Labs</a>
-            </Link>
-            .</p>
+            <p>
+              Previously - Software Development Intern for{" "}
+              <Link href="https://axelar.network/">
+                <a target="_blank">Axelar</a>
+              </Link>
+              , Software Engineer at{" "}
+              <Link href="https://jackalprotocol.com/">
+                <a target="_blank">Jackal Labs</a>
+              </Link>
+              .
+            </p>
           </p>
         </div>
         <div className="projects">
