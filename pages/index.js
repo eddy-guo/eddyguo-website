@@ -48,14 +48,12 @@ export default function Home() {
               <a target="_blank">Flood</a>
             </Link>
             , developing innovative routing algorithms to optimize trading.
-            <br />
-            <br />
-            <b>
-              <u>Seeking 2025 full-time engineering roles!</u>
-            </b>
-            <br />
-            <br />
-            Previously - Software Development Intern for{" "}
+            <p>
+              <b>
+                <u>Seeking 2025 full-time engineering roles!</u>
+              </b>
+            </p>
+            <p>Previously - Software Development Intern for{" "}
             <Link href="https://axelar.network/">
               <a target="_blank">Axelar</a>
             </Link>
@@ -63,7 +61,7 @@ export default function Home() {
             <Link href="https://jackalprotocol.com/">
               <a target="_blank">Jackal Labs</a>
             </Link>
-            .
+            .</p>
           </p>
         </div>
         <div className="projects">
