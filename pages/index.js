@@ -66,23 +66,23 @@ export default function Home() {
             <li>
               <Link href="https://github.com/eddy-guo/validator-monitor">
                 <a target="_blank">
-                  Validator Monitor - Discord Bot monitoring Cosmos blockchains
-                  and their validators/nodes
+                  Validator Monitor — Block validator notifcation bot monitoring
+                  Cosmos blockchains
                 </a>
               </Link>
             </li>
             <li>
-              <Link href="https://www.coherentapp.tech/">
+              <Link href="https://coherent.vercel.app/">
                 <a target="_blank">
-                  Co:herent - Web app streamlining communication with the
-                  hearing impaired
+                  Co:herent — Web application streamlining communication with
+                  the hearing impaired
                 </a>
               </Link>
             </li>
             <li>
-              <Link href="https://jackallabs-explorer.vercel.app/">
+              <Link href="https://github.com/eddy-guo/jackallabs-explorer">
                 <a target="_blank">
-                  Jackal Labs Explorer - Astro-built dashboard following
+                  Jackal Labs Explorer — Astro-built dashboard following
                   everything JACKAL
                 </a>
               </Link>
@@ -90,8 +90,8 @@ export default function Home() {
             <li>
               <Link href="https://airdrop.jackalprotocol.com">
                 <a target="_blank">
-                  Jackal Airdrop Checker — Calculate address's $JKL airdrop with
-                  Keplr integration
+                  Jackal Airdrop Checker — Calculate owed $JKL for stakers'
+                  addresses (Keplr, Leap)
                 </a>
               </Link>
             </li>
@@ -104,14 +104,17 @@ export default function Home() {
             </li>
             <li>
               <Link href="https://github.com/eddy-guo/snip3r">
-                <a target="_blank">snip3r — NFT rarity sniping tool</a>
+                <a target="_blank">
+                  snip3r — NFT rarity sniping tool using floor price and rarity
+                  metrics
+                </a>
               </Link>
             </li>
             <li>
               <Link href="https://github.com/eddy-guo/eddy-selfbot">
                 <a target="_blank">
-                  Eddy Selfbot — Script for auto-joining exclusive community
-                  invites
+                  Eddy Selfbot — Bot that scrapes and parses tweets for
+                  limited-time Discord invite links
                 </a>
               </Link>
             </li>
